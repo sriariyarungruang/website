@@ -1,0 +1,184 @@
+body {
+background-image: url('bluee.jpg');
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+
+nav a {
+background-color: lightcyan;   
+color: midnightblue;
+padding: 10px;
+margin: 8px 0;
+border-radius: 15px;
+width: 150px;
+text-align: center;
+font-weight: bold;
+box-shadow: 0 3px 6px lavender;
+transition: 0.3s;
+text-decoration: none;
+display: block;
+}
+
+nav a:hover {
+background-color: lightblue;
+transform: scale(1.07);
+box-shadow: 0 4px 10px white;
+}
+
+nav b {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+header {
+background-image: url('head.jpg');
+background-size: cover;
+background-position: center;
+color: tan;
+text-align: center;
+border-radius: 15px;
+padding: 6px 0;
+position: relative;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+nav { 
+background: transparent;
+padding: 15px;
+width: 150px;            
+}
+
+nav p {
+margin: 10px 0;           
+text-align: center;
+}
+
+.container, .main-container {
+display: flex;
+}
+
+section {
+background: transparent;
+flex: 3;
+padding: 15px;
+}
+
+article {
+background: lavender;
+padding: 15px;
+width: 700px;
+flex: 3;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 10px;
+margin-top: 30px;
+border-radius: 15px;
+}
+
+aside {
+background-color: antiquewhite; 
+padding: 15px; 
+flex: 1; 
+margin: 8px 0; 
+margin-top: 30px;
+border-radius: 30px; 
+}
+
+footer {
+background-color: transparent;
+text-align: center;
+padding: 5px;
+border-radius: 15px;
+margin-top: 10px;
+}
+
+nav img {
+display: block;
+margin-bottom: 5px;       
+max-width: 50px;          
+height: auto;
+}
+
+.home-btn {
+background: moccasin; 
+color: brown;
+padding: 12px 35px;
+border: none;
+border-radius: 20px;   
+font-size: 15px;
+letter-spacing: 1px;
+cursor: pointer;
+display: block;
+margin: 20px auto;
+
+box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+transition: 0.3s ease; 
+}
+
+.home-btn:hover {
+transform: scale(1.08);          
+background: seashell;               
+box-shadow: 0 6px 15px rgba(0,0,0,0.4); 
+}
+
+header {
+    position: relative;
+}
+
+header .home-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    margin: 0; 
+}
+
+body.homepage {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body.homepage nav {
+    display: flex;
+    flex-direction: row;       
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0;
+    position: static;          
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+body.homepage nav b {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+body.homepage nav a {
+    display: inline-block;
+    margin: 0 15px;
+    width: auto;
+    text-align: center;
+}
+
+body.homepage .main-container {
+    padding-top: 20px; 
+}
+
+
+
+
+
+
+
